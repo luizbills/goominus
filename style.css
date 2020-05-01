@@ -40,8 +40,23 @@ a {
 	max-width: 100%;
 }
 
+.social {
+	display: flex;
+	justify-content: center;
+}
+
+.social li {
+	width: 36px;
+}
+
+.social a,
+.social svg {
+	display: block;
+}
+
 .subtitle {
 	color: #343a40;
+	margin-bottom: .5rem;
 }
 
 .clear,
@@ -94,5 +109,9 @@ a {
 	/* hide at 'smartphone' screens */
 	.hide-ns {
 		display: none!important;
+	}
+
+	.social li {
+		width: 24px;
 	}
 }
